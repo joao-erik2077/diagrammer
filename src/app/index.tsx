@@ -1,5 +1,11 @@
-import styles from './App.module.scss';
+import styles from "./App.module.scss";
+import DraggableItem from "./DraggableItem";
+
 
 export default function App() {
-    return <>App is working</>;
+  return (
+    <>
+      <DraggableItem />
+    </>
+  );
 }
